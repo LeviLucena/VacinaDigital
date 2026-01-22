@@ -1,0 +1,4 @@
+project_id = "hwbznvjtgvdkizgptjho"
+
+[functions.extract-vaccination]
+verify_jwt = false

@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System - Tema Governo do Brasil / Ministério da Saúde */
+
+@import url('https://fonts.googleapis.com/css2?family=Rawline:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Gov.br Core Colors */
+    --gov-blue: 217 84% 39%;
+    --gov-blue-light: 217 84% 50%;
+    --gov-blue-dark: 217 84% 28%;
+    --gov-green: 145 85% 28%;
+    --gov-green-light: 145 75% 40%;
+    --gov-yellow: 45 100% 52%;
+    --gov-yellow-light: 45 100% 70%;
+
+    /* Semantic tokens */
+    --background: 210 20% 98%;
+    --foreground: 217 32% 17%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 217 32% 17%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 32% 17%;
+
+    --primary: 217 84% 39%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 145 85% 28%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 20% 94%;
+    --muted-foreground: 217 20% 45%;
+
+    --accent: 45 100% 52%;
+    --accent-foreground: 217 32% 17%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217 25% 88%;
+    --input: 217 25% 88%;
+    --ring: 217 84% 39%;
+
+    --radius: 0.5rem;
+
+    /* Custom gradients */
+    --gradient-gov: linear-gradient(135deg, hsl(217 84% 39%), hsl(217 84% 28%));
+    --gradient-hero: linear-gradient(180deg, hsl(217 84% 39%) 0%, hsl(217 84% 45%) 100%);
+
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(217 32% 17% / 0.1), 0 2px 4px -2px hsl(217 32% 17% / 0.1);
+    --shadow-elevated: 0 10px 15px -3px hsl(217 32% 17% / 0.1), 0 4px 6px -4px hsl(217 32% 17% / 0.1);
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 217 32% 17%;
+    --sidebar-primary: 217 84% 39%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 20% 94%;
+    --sidebar-accent-foreground: 217 32% 17%;
+    --sidebar-border: 217 25% 88%;
+    --sidebar-ring: 217 84% 39%;
+  }
+
+  .dark {
+    --background: 217 32% 10%;
+    --foreground: 210 20% 98%;
+
+    --card: 217 32% 14%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 217 32% 14%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 217 84% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 145 75% 40%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 217 32% 20%;
+    --muted-foreground: 210 20% 70%;
+
+    --accent: 45 100% 52%;
+    --accent-foreground: 217 32% 17%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217 32% 25%;
+    --input: 217 32% 25%;
+    --ring: 217 84% 50%;
+
+    --sidebar-background: 217 32% 12%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 217 84% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 217 32% 20%;
+    --sidebar-accent-foreground: 210 20% 98%;
+    --sidebar-border: 217 32% 25%;
+    --sidebar-ring: 217 84% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Rawline', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@layer utilities {
+  .gov-gradient {
+    background: var(--gradient-gov);
+  }
+
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .print-only {
+    display: none;
+  }
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+
+    .print-only {
+      display: block !important;
+    }
+
+    .print-break-before {
+      page-break-before: always;
+    }
+  }
+}
