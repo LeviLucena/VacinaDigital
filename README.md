@@ -1,4 +1,24 @@
-# Vacina Digital
+<div align="center">
+  
+![React 18](https://img.shields.io/badge/React%2018-2025-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-2.9.0-%23b100ff?logo=vite)
+![Tailwind%20CSS](https://img.shields.io/badge/Tailwind%20CSS-3.2-blue)
+![Shadcn%20UI](https://img.shields.io/badge/Shadcn%20UI-collection-blue)
+![Lucide%20React](https://img.shields.io/badge/Lucide%20React-0.259-blue)
+
+![Supabase](https://img.shields.io/badge/Supabase-1.0-blue?logo=supabase)
+![Edge%20Functions](https://img.shields.io/badge/Edge%20Functions-serverless-blue)
+![API%20de%20IA](https://img.shields.io/badge/API%20de%20IA-OpenAI-blue)
+![TanStack%20Query](https://img.shields.io/badge/TanStack%20Query-React%20Query-blue)
+![React%20Hook%20Form](https://img.shields.io/badge/React%20Hook%20Form-blue)
+![Zod](https://img.shields.io/badge/Zod-2.0-blue)
+![html2canvas](https://img.shields.io/badge/html2canvas-blue)
+![React%20Router%20DOM](https://img.shields.io/badge/React%20Router%20DOM-blue)
+
+
+  <img src="https://github.com/user-attachments/assets/f80a1371-8c1f-4333-a58e-e72c191d40b9" width="469" alt="Gemini_Generated_Image_oxxdppoxxdppoxxd_-removebg-preview"/>
+</div>
 
 ## Descrição do Projeto
 
