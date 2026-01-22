@@ -6,7 +6,6 @@
 ![Tailwind%20CSS](https://img.shields.io/badge/Tailwind%20CSS-3.2-blue)
 ![Shadcn%20UI](https://img.shields.io/badge/Shadcn%20UI-collection-blue)
 ![Lucide%20React](https://img.shields.io/badge/Lucide%20React-0.259-blue)
-
 ![Supabase](https://img.shields.io/badge/Supabase-1.0-blue?logo=supabase)
 ![Edge%20Functions](https://img.shields.io/badge/Edge%20Functions-serverless-blue)
 ![API%20de%20IA](https://img.shields.io/badge/API%20de%20IA-OpenAI-blue)
@@ -15,7 +14,6 @@
 ![Zod](https://img.shields.io/badge/Zod-2.0-blue)
 ![html2canvas](https://img.shields.io/badge/html2canvas-blue)
 ![React%20Router%20DOM](https://img.shields.io/badge/React%20Router%20DOM-blue)
-
 
   <img src="https://github.com/user-attachments/assets/f80a1371-8c1f-4333-a58e-e72c191d40b9" width="469" alt="Gemini_Generated_Image_oxxdppoxxdppoxxd_-removebg-preview"/>
 </div>
@@ -27,6 +25,11 @@ Vacina Digital é uma aplicação web desenvolvida para digitalizar e gerenciar 
 ## Propósito
 
 O objetivo principal deste projeto é facilitar o acesso e armazenamento digital de informações de vacinação, especialmente em um contexto onde muitas pessoas ainda mantêm suas informações em cadernetas físicas. Isso ajuda na organização pessoal, facilita consultas médicas e pode ser útil em situações onde a documentação física não está disponível.
+
+
+https://github.com/user-attachments/assets/8bcdb3aa-860f-41a2-b64f-b78654c742be
+
+
 
 ## Tecnologias Utilizadas
 
